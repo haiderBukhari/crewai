@@ -18,8 +18,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic': 'SDLC pipeline for my startup, which is a generative AI solution for voice changing.',
-        'current_year': str(datetime.now().year)
+        'topic': 'SDLC pipeline for my startup, which is a generative AI solution for voice changing.'
     }
     
     try:
