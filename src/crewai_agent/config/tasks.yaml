@@ -1,0 +1,42 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}.
+    Ensure you find any interesting and relevant information, considering the current year is {current_year}.
+  expected_output: >
+    A list with 10 bullet points of the most relevant information about {topic}.
+  agent: req_analyzer
+
+design_task:
+  description: >
+    Simplify and enhance software system design by providing AI-driven insights and architectural recommendations in {topic}.
+  expected_output: >
+    A detailed software design document including UML diagrams, design patterns, and architectural recommendations tailored for {topic}.
+  agent: design_craft
+
+development_task:
+  description: >
+    Accelerate software development by writing clean, optimized, and high-quality code following industry best practices in {topic}.
+  expected_output: >
+    A set of well-documented, efficient, and maintainable code modules or components for {topic}.
+  agent: code_mate
+
+testing_task:
+  description: >
+    Improve software testing efficiency and coverage through AI-driven automation and intelligent bug detection in {topic}.
+  expected_output: >
+    A comprehensive test suite with automated test cases, bug reports, and quality assurance metrics for {topic}.
+  agent: test_genie
+
+deployment_task:
+  description: >
+    Automate and optimize the software deployment process, ensuring reliability, security, and minimal downtime in {topic}.
+  expected_output: >
+    A deployment pipeline configuration, deployment scripts, and a deployment report ensuring smooth deployment for {topic}.
+  agent: deploy_wizard
+
+maintenance_task:
+  description: >
+    Proactively monitor software health, predict maintenance needs, and ensure long-term stability and security in {topic}.
+  expected_output: >
+    A maintenance plan, monitoring dashboards, and predictive maintenance reports for {topic}.
+  agent: maintainer_ai
